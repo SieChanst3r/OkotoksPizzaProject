@@ -7,10 +7,24 @@
   display: -ms-grid;
   display: grid;
   width: 100%;
+  min-height: 10vh;
+  -ms-grid-columns: 20% 40% 20% 20%;
+      grid-template-columns: 20% 40% 20% 20%;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #logo {
   display: left;
   height: 10vw;
+}
+
+#content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: ()[auto-fit], minmax(150px, 2fr);
+      grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
 }
 /*# sourceMappingURL=style.css.map */

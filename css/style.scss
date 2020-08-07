@@ -6,6 +6,10 @@
 #header {
     display: grid;
     width: 100%;
+    min-height: 10vh;
+    grid-template-columns: 20% 40% 20% 20%;
+    justify-items: center;
+    align-items: center;
 }
 
 #logo {
@@ -13,4 +17,7 @@
     height: 10vw;
 }
 
-body {}
+#content {
+    display: grid;
+    grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
+}
