@@ -18,7 +18,7 @@
 
 #logo {
   display: left;
-  height: 10vw;
+  height: 14vw;
 }
 
 #content {
@@ -26,5 +26,30 @@
   display: grid;
   -ms-grid-rows: ()[auto-fit], minmax(150px, 2fr);
       grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
+}
+
+#top-section {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: solid black;
+}
+
+#homepage-pizza {
+  width: 100%;
+}
+
+#footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 10vh;
 }
 /*# sourceMappingURL=style.css.map */

@@ -14,10 +14,29 @@
 
 #logo {
     display: left;
-    height: 10vw;
+    height: 14vw;
 }
 
 #content {
     display: grid;
     grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
+}
+
+#top-section {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-bottom: solid black;
+}
+
+#homepage-pizza {
+    width: 100%;
+}
+
+#footer {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
 }
