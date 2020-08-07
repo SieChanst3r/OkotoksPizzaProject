@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+}
+
+#logo {
+  display: left;
+  height: 10vw;
+}
+/*# sourceMappingURL=style.css.map */
