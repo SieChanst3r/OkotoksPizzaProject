@@ -19,8 +19,6 @@
 
 #phone-icon {
     width: 3vw;
-    justify-items: center;
-    align-items: center;
 }
 
 #body {
@@ -39,6 +37,14 @@
     border-bottom: solid black;
 }
 
+#bottom-section {
+    display: grid;
+}
+
+.google-map {
+    width: 100%;
+}
+
 #homepage-pizza {
     width: 100%;
 }
@@ -48,5 +54,5 @@
     justify-items: center;
     align-items: center;
     width: 100%;
-    min-height: 10vh;
+    min-height: 20vh;
 }
