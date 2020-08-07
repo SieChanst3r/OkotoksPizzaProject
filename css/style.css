@@ -21,6 +21,19 @@
   height: 14vw;
 }
 
+#phone-icon {
+  width: 3vw;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#body {
+  display: -ms-grid;
+  display: grid;
+}
+
 #content {
   display: -ms-grid;
   display: grid;

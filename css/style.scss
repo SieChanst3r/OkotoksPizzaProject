@@ -17,6 +17,16 @@
     height: 14vw;
 }
 
+#phone-icon {
+    width: 3vw;
+    justify-items: center;
+    align-items: center;
+}
+
+#body {
+    display: grid;
+}
+
 #content {
     display: grid;
     grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
