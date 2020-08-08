@@ -199,4 +199,14 @@
       grid-template-rows: repeat(4, 1fr);
   min-height: 90vh;
 }
+
+#container-about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  min-height: 90vh;
+}
 /*# sourceMappingURL=style.css.map */
