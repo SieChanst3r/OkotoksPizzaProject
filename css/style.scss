@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#header {
+#mobile-header {
     display: grid;
     width: 100%;
     min-height: 10vh;
@@ -17,42 +17,104 @@
     height: 14vw;
 }
 
-#phone-icon {
+#mobile-phone-icon {
     width: 3vw;
+}
+
+#mobile-hamburger-menu {
+    #mobile-menu-checkbox {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        opacity: 0;
+        z-index: 5;
+    }
+    #mobile-menu-checkbox:checked~#mobile-header-menu {
+        top: 0;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+    #mobile-hamburger-container {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        z-index: 4;
+        position: relative;
+        .mobile-hamburger-line {
+            width: 30px;
+            height: 4px;
+            background-color: #9C0F10;
+        }
+    }
+    #mobile-header-menu {
+        position: absolute;
+        width: 100%;
+        background-color: burlywood;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        top: -15vh;
+        opacity: 0;
+        left: 0;
+        min-height: 15vh;
+        transition: all 0.5s ease-in-out;
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
 }
 
 #body {
     display: grid;
 }
 
-#content {
+#mobile-content {
     display: grid;
     grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
 }
 
-#top-section {
+#mobile-top-section {
     display: grid;
     justify-items: center;
     align-items: center;
     border-bottom: solid black;
 }
 
-#bottom-section {
+#mobile-bottom-section {
     display: grid;
 }
 
+#mobile-tuesday-special {
+    position: absolute;
+    justify-items: center;
+    align-items: center;
+    left: 30vw;
+    font-weight: bold;
+    font-size: large;
+    top: 20vh;
+    border: medium #050505;
+}
+
 .google-map {
-    width: 100%;
+    width: 99%;
+    justify-items: center;
+    align-items: center;
+    padding: 1px;
+    height: 30vh;
 }
 
 #homepage-pizza {
     width: 100%;
 }
 
-#footer {
+#mobile-footer {
     display: grid;
     justify-items: center;
     align-items: center;
     width: 100%;
-    min-height: 20vh;
+    min-height: 10vh;
 }
