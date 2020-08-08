@@ -97,6 +97,8 @@
 }
 
 #mobile-tuesday-special {
+    display: grid;
+    grid-template-rows: 1, 1fr;
     position: absolute;
     justify-items: center;
     align-items: center;
@@ -149,4 +151,11 @@
     align-items: center;
     background-color: #f8eddc;
     border-top: thin solid black;
+}
+
+#card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    min-height: 90vh;
 }
