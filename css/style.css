@@ -62,7 +62,7 @@
 #mobile-hamburger-menu #mobile-header-menu {
   position: absolute;
   width: 100%;
-  background-color: burlywood;
+  background-color: #F0D6AD;
   display: -ms-grid;
   display: grid;
   justify-items: center;
