@@ -20,7 +20,7 @@
 
 #logo {
   display: left;
-  height: 14vw;
+  height: 10.5vh;
 }
 
 #mobile-phone-icon {
@@ -144,7 +144,7 @@
   display: grid;
   -ms-grid-rows: (1fr)[3];
       grid-template-rows: repeat(3, 1fr);
-  border: black solid;
+  border: black solid thick;
   min-height: 45px;
   padding: 10px;
   justify-items: center;

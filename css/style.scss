@@ -16,7 +16,7 @@
 
 #logo {
     display: left;
-    height: 14vw;
+    height: 10.5vh;
 }
 
 #mobile-phone-icon {
@@ -115,7 +115,7 @@
 #mobile-restaurant-details {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    border: black solid;
+    border: black solid thick;
     min-height: 45px;
     padding: 10px;
     justify-items: center;
