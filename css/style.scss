@@ -68,6 +68,12 @@
     }
 }
 
+#mobile-phone-link {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 #body {
     display: grid;
 }
@@ -92,11 +98,24 @@
     position: absolute;
     justify-items: center;
     align-items: center;
-    left: 30vw;
+    left: 26vw;
     font-weight: bold;
     font-size: large;
-    top: 20vh;
-    border: medium #050505;
+    top: 18vh;
+    border: medium solid #F0D6AD;
+    background-color: #F0D6AD;
+    padding: 3px;
+    box-shadow: 4px 5px #c7b08a;
+}
+
+#mobile-restaurant-details {
+    display: grid;
+    border: black solid;
+    min-height: 45px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    width: 65%;
 }
 
 .google-map {
@@ -111,10 +130,10 @@
     width: 100%;
 }
 
-#mobile-footer {
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    width: 100%;
+.mobile-footer {
+    width: 90%;
     min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5vw;
 }

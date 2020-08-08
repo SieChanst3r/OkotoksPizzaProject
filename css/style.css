@@ -83,6 +83,12 @@
   font-weight: bold;
 }
 
+#mobile-phone-link {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 #body {
   display: -ms-grid;
   display: grid;
@@ -116,11 +122,28 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  left: 30vw;
+  left: 26vw;
   font-weight: bold;
   font-size: large;
-  top: 20vh;
-  border: medium #050505;
+  top: 18vh;
+  border: medium solid #F0D6AD;
+  background-color: #F0D6AD;
+  padding: 3px;
+  -webkit-box-shadow: 4px 5px #c7b08a;
+          box-shadow: 4px 5px #c7b08a;
+}
+
+#mobile-restaurant-details {
+  display: -ms-grid;
+  display: grid;
+  border: black solid;
+  min-height: 45px;
+  padding: 10px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 65%;
 }
 
 .google-map {
@@ -137,14 +160,14 @@
   width: 100%;
 }
 
-#mobile-footer {
+.mobile-footer {
+  width: 90%;
+  min-height: 10vh;
   display: -ms-grid;
   display: grid;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  min-height: 10vh;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 5vw;
+          column-gap: 5vw;
 }
 /*# sourceMappingURL=style.css.map */
