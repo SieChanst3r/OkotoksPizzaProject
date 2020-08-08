@@ -10,6 +10,8 @@
     grid-template-columns: 20% 40% 20% 20%;
     justify-items: center;
     align-items: center;
+    background-color: #f8eddc;
+    border-bottom: black thin solid;
 }
 
 #logo {
@@ -110,12 +112,20 @@
 
 #mobile-restaurant-details {
     display: grid;
+    grid-template-rows: repeat(3, 1fr);
     border: black solid;
     min-height: 45px;
     padding: 10px;
     justify-items: center;
     align-items: center;
-    width: 65%;
+}
+
+#mobile-home-hours-2 {
+    font-size: 18px;
+}
+
+.white-space {
+    white-space: pre;
 }
 
 .google-map {
@@ -131,9 +141,12 @@
 }
 
 .mobile-footer {
-    width: 90%;
+    width: 100%;
     min-height: 10vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 5vw;
+    justify-items: center;
+    align-items: center;
+    background-color: #f8eddc;
+    border-top: thin solid black;
 }
