@@ -156,8 +156,9 @@
 #card-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(24, 1fr);
     min-height: 90vh;
+    row-gap: 30vh;
 }
 
 #container-about {
