@@ -198,7 +198,22 @@
   -ms-grid-rows: (1fr)[24];
       grid-template-rows: repeat(24, 1fr);
   min-height: 90vh;
-  row-gap: 30vh;
+}
+
+.mobile-menu-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  -ms-grid-rows: repeat();
+      grid-template-rows: repeat();
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
 }
 
 #container-about {

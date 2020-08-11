@@ -158,7 +158,17 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(24, 1fr);
     min-height: 90vh;
-    row-gap: 30vh;
+}
+
+.mobile-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat();
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
 }
 
 #container-about {
