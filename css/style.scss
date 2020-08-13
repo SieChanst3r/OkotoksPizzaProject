@@ -179,6 +179,30 @@ html {
 #container-about {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    min-height: 90vh;
+    min-height: 40vh;
+    background-color: whitesmoke;
+}
+
+#mobile-about-header {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    height: 8vh;
+}
+
+#images-mobile {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.mobile-about-content {
+    text-align: center;
+}
+
+#mobile-video-about {
+    display: grid;
+    padding: 45px;
+    align-items: center;
+    justify-items: center;
 }

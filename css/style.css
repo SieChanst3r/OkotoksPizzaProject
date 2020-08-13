@@ -226,8 +226,40 @@ html {
   display: grid;
   -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
-  -ms-grid-rows: (1fr)[4];
-      grid-template-rows: repeat(4, 1fr);
-  min-height: 90vh;
+  min-height: 40vh;
+  background-color: whitesmoke;
+}
+
+#mobile-about-header {
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  height: 8vh;
+}
+
+#images-mobile {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-about-content {
+  text-align: center;
+}
+
+#mobile-video-about {
+  display: -ms-grid;
+  display: grid;
+  padding: 45px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
 }
 /*# sourceMappingURL=style.css.map */
