@@ -102,11 +102,10 @@ html {
 
 #mobile-tuesday-special {
     display: grid;
-    grid-template-rows: 1, 1fr;
     position: absolute;
     justify-items: center;
     align-items: center;
-    left: 26vw;
+    left: 25vw;
     font-weight: bold;
     font-size: large;
     top: 18vh;
@@ -135,7 +134,7 @@ html {
 }
 
 .google-map {
-    width: 99%;
+    width: 100%;
     justify-items: center;
     align-items: center;
     padding: 1px;
@@ -148,7 +147,7 @@ html {
 
 .mobile-footer {
     width: 100%;
-    min-height: 10vh;
+    min-height: 20vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -183,11 +182,11 @@ html {
     background-color: whitesmoke;
 }
 
-#mobile-about-header {
+.mobile-about-header {
     justify-items: center;
     align-items: center;
     display: grid;
-    height: 8vh;
+    height: 4vh;
 }
 
 #images-mobile {
@@ -244,6 +243,22 @@ html {
         background-color: #F0D6AD;
         padding: 3px;
         box-shadow: 4px 5px #c7b08a;
+    }
+    .mobile-a-tag {
+        display: none;
+    }
+    #Phone {
+        display: none;
+        ;
+    }
+    .mobile-about-header-two {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        border: solid thin black;
+    }
+    img {
+        min-height: 300px;
     }
 }
 

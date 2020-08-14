@@ -125,14 +125,12 @@ html {
 #mobile-tuesday-special {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1, 1fr;
-      grid-template-rows: 1, 1fr;
   position: absolute;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  left: 26vw;
+  left: 25vw;
   font-weight: bold;
   font-size: large;
   top: 18vh;
@@ -166,7 +164,7 @@ html {
 }
 
 .google-map {
-  width: 99%;
+  width: 100%;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -181,7 +179,7 @@ html {
 
 .mobile-footer {
   width: 100%;
-  min-height: 10vh;
+  min-height: 20vh;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -230,14 +228,14 @@ html {
   background-color: whitesmoke;
 }
 
-#mobile-about-header {
+.mobile-about-header {
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   display: -ms-grid;
   display: grid;
-  height: 8vh;
+  height: 4vh;
 }
 
 #images-mobile {
@@ -312,6 +310,24 @@ html {
     padding: 3px;
     -webkit-box-shadow: 4px 5px #c7b08a;
             box-shadow: 4px 5px #c7b08a;
+  }
+  .mobile-a-tag {
+    display: none;
+  }
+  #Phone {
+    display: none;
+  }
+  .mobile-about-header-two {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: solid thin black;
+  }
+  img {
+    min-height: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
