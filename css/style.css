@@ -28,7 +28,7 @@ html {
 
 #logo {
   display: left;
-  height: 10.5vh;
+  width: 50%;
 }
 
 #mobile-phone-icon {
@@ -122,7 +122,6 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
 }
 
 .call-to-order {
@@ -132,7 +131,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
+  padding-right: 1em;
 }
 
 #mobile-top-section {
@@ -185,6 +184,12 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#mobile-home-hours-1 {
+  margin: 0;
+  padding: 0;
+  font-size: xx-large;
 }
 
 #mobile-home-hours-2 {
@@ -252,13 +257,16 @@ html {
 }
 
 .menu-ingrediant-mobile {
-  padding: 5px;
-  margin: 5px;
+  padding: 2em;
+  margin: 2em;
 }
 
 h1 {
-  margin: 6px;
-  padding: 6px;
+  padding: 1em;
+}
+
+.price-menu {
+  padding: 1em;
 }
 
 #container-about {
@@ -278,6 +286,8 @@ h1 {
   display: -ms-grid;
   display: grid;
   height: 4vh;
+  margin: 0;
+  padding-right: 1.5em;
 }
 
 #images-mobile {
@@ -295,15 +305,20 @@ h1 {
 }
 
 .mobile-about-content {
+  display: -ms-grid;
+  display: grid;
   text-align: center;
-  margin: 6px;
-  padding: 9px;
+  justify-items: center;
+  margin: 1.9em;
+  margin-left: 1.5em;
+  padding: 1em;
+  border: thin solid black;
 }
 
 #mobile-video-about {
   display: -ms-grid;
   display: grid;
-  padding: 45px;
+  padding: 1.5em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -321,6 +336,9 @@ h1 {
     justify-items: center;
     min-height: 300px;
   }
+  .price-menu {
+    padding: 2em;
+  }
   #images-mobile {
     display: -ms-grid;
     display: grid;
@@ -333,11 +351,11 @@ h1 {
   }
   .mobile-about-content {
     text-align: center;
-    padding: 5px;
+    padding: 1em;
     font-style: bold;
-    margin: 10px;
+    margin: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: black solid thin;
+    border: black solid thick;
   }
   #mobile-tuesday-special {
     display: -ms-grid;
@@ -382,6 +400,9 @@ h1 {
     font-size: large;
     font-weight: bold;
   }
+  h1 {
+    padding: 2em;
+  }
 }
 
 @media only screen and (min-width: 1020px) {
@@ -405,6 +426,7 @@ h1 {
     top: 18vh;
     border: medium solid #F0D6AD;
     background-color: #F0D6AD;
+    margin: 2em;
     padding: 21px;
     -webkit-box-shadow: 4px 5px #c7b08a;
             box-shadow: 4px 5px #c7b08a;
@@ -416,7 +438,7 @@ h1 {
             align-items: center;
     display: -ms-grid;
     display: grid;
-    padding-right: 46px;
+    padding-left: 2.5rem;
     height: 4vh;
   }
   #mobile-restaurant-details {
@@ -428,21 +450,32 @@ h1 {
     min-height: 45px;
     padding: 2px;
     margin-top: 30px;
-    margin-left: 5px;
+    margin-left: 21em;
     margin-bottom: 10px;
     justify-items: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 98%;
+    width: 50%;
+  }
+  #mobile-home-hours-1 {
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+  }
+  #mobile-home-hours-2 {
+    font-size: 1.5em;
   }
   #homepage-pizza {
-    width: 15vh;
+    margin: 1.5em;
+    height: 450px;
   }
   img {
     width: 65%;
   }
   .images-desktop-about {
+    display: -ms-grid;
+    display: grid;
     justify-items: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -458,6 +491,20 @@ h1 {
     justify-items: center;
     padding-left: 385px;
     width: 45%;
+  }
+  .mobile-about-content {
+    text-align: center;
+    padding: 3em;
+    font-style: bold;
+    margin: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black solid thin;
+  }
+  .price-menu {
+    padding: 2em;
+  }
+  h1 {
+    padding: 2em;
   }
 }
 /*# sourceMappingURL=style.css.map */
