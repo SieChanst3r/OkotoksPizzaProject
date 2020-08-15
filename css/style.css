@@ -349,13 +349,13 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    left: 36vw;
+    left: 32vw;
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
     top: 18vh;
     border: medium solid #F0D6AD;
     background-color: #F0D6AD;
-    padding: 3px;
+    padding: 18px;
     -webkit-box-shadow: 4px 5px #c7b08a;
             box-shadow: 4px 5px #c7b08a;
   }
@@ -373,6 +373,91 @@ h1 {
         -ms-flex-align: center;
             align-items: center;
     border: solid thin black;
+  }
+  .menu-ingrediant-tablet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  #logo {
+    display: left;
+    width: 10vw;
+  }
+  #mobile-tuesday-special {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1, 1fr;
+        grid-template-rows: 1, 1fr;
+    position: absolute;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 36vw;
+    font-weight: bold;
+    font-size: x-large;
+    top: 18vh;
+    border: medium solid #F0D6AD;
+    background-color: #F0D6AD;
+    padding: 21px;
+    -webkit-box-shadow: 4px 5px #c7b08a;
+            box-shadow: 4px 5px #c7b08a;
+  }
+  .mobile-about-header {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -ms-grid;
+    display: grid;
+    padding-right: 46px;
+    height: 4vh;
+  }
+  #mobile-restaurant-details {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    border: black solid thin;
+    min-height: 45px;
+    padding: 2px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 98%;
+  }
+  #homepage-pizza {
+    width: 15vh;
+  }
+  img {
+    width: 65%;
+  }
+  .images-desktop-about {
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 110px;
+  }
+  #mobile-video-about {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    padding-left: 385px;
+    width: 45%;
   }
 }
 /*# sourceMappingURL=style.css.map */
