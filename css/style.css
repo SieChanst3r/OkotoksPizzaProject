@@ -329,6 +329,17 @@ h1 {
   justify-items: center;
 }
 
+#homepage-pizza {
+  margin: 0;
+  height: 425px;
+  padding: 0;
+  border: thin solid maroon;
+}
+
+.menu-image {
+  border: thick solid maroon;
+}
+
 @media only screen and (min-width: 600px) {
   #mobile-video-about {
     display: -ms-grid;
@@ -360,6 +371,15 @@ h1 {
     margin: 1.5em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: black solid thick;
+  }
+  #homepage-pizza {
+    margin: 1em;
+    height: 450px;
+    padding: 1.2em;
+    border: thick solid maroon;
+  }
+  .menu-image {
+    border: thick solid maroon;
   }
   #mobile-tuesday-special {
     display: -ms-grid;
