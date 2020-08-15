@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -107,6 +111,30 @@ html {
       grid-template-rows: repeat(auto-fit), minmax(150px, 2fr);
 }
 
+#mobile-content img {
+  width: 98%;
+}
+
+#call-to-order {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.call-to-order {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
 #mobile-top-section {
   display: -ms-grid;
   display: grid;
@@ -130,13 +158,14 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  left: 25vw;
+  left: 21vw;
   font-weight: bold;
   font-size: large;
   top: 18vh;
   border: medium solid #F0D6AD;
   background-color: #F0D6AD;
-  padding: 3px;
+  padding: 10px;
+  margin-top: 30px;
   -webkit-box-shadow: 4px 5px #c7b08a;
           box-shadow: 4px 5px #c7b08a;
 }
@@ -148,7 +177,10 @@ html {
       grid-template-rows: repeat(3, 1fr);
   border: black solid thick;
   min-height: 45px;
-  padding: 10px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-right: 1px;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -171,6 +203,8 @@ html {
           align-items: center;
   padding: 1px;
   height: 30vh;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 #homepage-pizza {
@@ -197,9 +231,7 @@ html {
   display: grid;
   -ms-grid-columns: (1fr)[1];
       grid-template-columns: repeat(1, 1fr);
-  -ms-grid-rows: (1fr)[24];
-      grid-template-rows: repeat(24, 1fr);
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 .mobile-menu-grid {
@@ -217,6 +249,16 @@ html {
   border-top: thin solid black;
   border-bottom: thin solid black;
   background-color: whitesmoke;
+}
+
+.menu-ingrediant-mobile {
+  padding: 5px;
+  margin: 5px;
+}
+
+h1 {
+  margin: 6px;
+  padding: 6px;
 }
 
 #container-about {
@@ -247,10 +289,15 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 96%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .mobile-about-content {
   text-align: center;
+  margin: 6px;
+  padding: 9px;
 }
 
 #mobile-video-about {
@@ -290,6 +337,7 @@ html {
     font-style: bold;
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: black solid thin;
   }
   #mobile-tuesday-special {
     display: -ms-grid;
@@ -325,9 +373,6 @@ html {
         -ms-flex-align: center;
             align-items: center;
     border: solid thin black;
-  }
-  img {
-    min-height: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
